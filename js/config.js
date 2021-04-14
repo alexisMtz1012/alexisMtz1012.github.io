@@ -11,7 +11,7 @@ class MiNav extends HTMLElement {
         </span>
         Inicio
       </a>
-      <a href="formulario.html">
+      <a href="internetThings.html">
         <span
           class="material-icons">
           cloud_done
