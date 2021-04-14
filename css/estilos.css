@@ -29,7 +29,8 @@ img{
     width: 350px;
 }
 table{
-    border:2px;
+    width: 100%;
+    border: 1px solid #000;
 }
 .tabla-contenido{
     text-align: center;
