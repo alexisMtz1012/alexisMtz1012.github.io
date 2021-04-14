@@ -28,3 +28,9 @@ img{
     text-align: center;
     width: 350px;
 }
+table{
+    border:2px;
+}
+.tabla-contenido{
+    text-align: center;
+}
