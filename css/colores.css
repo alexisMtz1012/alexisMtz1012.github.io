@@ -1,6 +1,6 @@
 html {
   --colContenido: black;
-  --colContenidoFondo: white;
+  --colContenidoFondo: rgb(128, 169, 182);
   --colPrimario: black;
   --colPrimarioFondo: #ff0000;
   --colActive: #4646462c;
