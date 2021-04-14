@@ -19,3 +19,19 @@ mi-footer {
   margin: 1rem 0;
   font-size: small;
 }
+
+.botones_vinculo{
+  font: 20px fuente1;
+	color: #000000;
+	font-weight: 300px;
+	text-decoration: none;
+	border-bottom: 3px solid #0F76A0;
+	padding: 10px;
+	margin-bottom: 10px;
+	background: transparent;
+}
+.botones_vinculo a{
+  background: transparent;
+	background-color: #0F76A0;
+	color: #FFFFFF;
+}

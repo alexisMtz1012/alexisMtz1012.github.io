@@ -3,7 +3,7 @@ class MiFooter
   connectedCallback() {
     this.innerHTML = /* html */
       `&copy; 2021
-      Gilberto Pacheco Gallegos.`;
+      Alexis Martínez Enríquez.`;
   }
 }
 customElements.define(
