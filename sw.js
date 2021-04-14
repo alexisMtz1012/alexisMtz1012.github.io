@@ -78,7 +78,7 @@ self.addEventListener('install', e => {
       })
       .catch(err => console.log('Falló registro de cache', err))
   )
-})
+});
 
 /* Toma los archivos solicitados
  * de la caché; si no los
