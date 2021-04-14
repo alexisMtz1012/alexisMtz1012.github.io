@@ -2,11 +2,11 @@ html {
   --colContenido: black;
   --colContenidoFondo: white;
   --colPrimario: black;
-  --colPrimarioFondo: #81D4FA;
+  --colPrimarioFondo: #ff0000;
   --colActive: #4646462c;
   --colCampoSinFoco: gray;
   --colCampoFoco: #01579B;
-  --colError: #b00020;
+  --colError: #00b043;
   --colCampoFondo: #F5F5F5;
   --colCampoFondoHover: #EEEEEE;
   --colCampoFondoFocus: #E0E0E0;
