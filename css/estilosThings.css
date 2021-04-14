@@ -20,7 +20,7 @@ mi-footer {
   font-size: small;
 }
 
-.botones_vinculo a{
+.botones_vinculo{
   font: 20px fuente1;
 	color: #000000;
 	font-weight: 300px;
@@ -29,6 +29,10 @@ mi-footer {
 	padding: 10px;
 	margin-bottom: 10px;
 	background: transparent;
+}
+
+.botones_vinculo a{
+  text-decoration: none;
 }
 
 .botones_vinculo a:hover{
