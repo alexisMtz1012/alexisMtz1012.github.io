@@ -1,6 +1,11 @@
 body {
   font-family: sans-serif;
   text-align: center;
+  margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background: transparent;
+	background: -webkit-linear-gradient(top, transparent, #0F76A0);
 }
 
 .contenido {
@@ -19,13 +24,7 @@ mi-footer {
   margin: 1rem 0;
   font-size: small;
 }
-*{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	background: transparent;
-	background: -webkit-linear-gradient(top, transparent, #0F76A0);
-}
+
 
 .botones_vinculo{
   font: 20px fuente1;
