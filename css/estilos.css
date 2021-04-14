@@ -21,6 +21,9 @@ h2{
 h3{
     text-align: center;
 }
+div{
+    margin:auto;
+}
 img{
     text-align: center;
     width: 350px;
