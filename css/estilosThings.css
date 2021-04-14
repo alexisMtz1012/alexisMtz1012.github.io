@@ -31,6 +31,7 @@ mi-footer {
 	background: transparent;
 }
 .botones_vinculo a:hover{
+  text-decoration: none;
   background: transparent;
 	background-color: #0F76A0;
 	color: #FFFFFF;
