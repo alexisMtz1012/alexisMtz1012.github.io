@@ -69,14 +69,21 @@ const ARCHIVOS = [
   "/"
 ];
 
-self.addEventListener("install",
-  evt => {
-    console.log("sw instalado.");
+self.addEventListener("install",  evt => {
+  e.waitUntil(
+    caches.open(CACHE_NAME)
+      .then(cache => {
+        return cache.addAll(urlsToCache)
+          .then(() => self.skipWaiting())
+      })
+      .catch(err => console.log('Falló registro de cache', err))
+  )
+  console.log("sw instalado.");
     /* Realiza la instalación.
      * Carga los archivos
      * requeridos en la caché. */
     // @ts-ignore
-    evt.waitUntil(cargaCache());
+    
   });
 
 /* Toma los archivos solicitados
