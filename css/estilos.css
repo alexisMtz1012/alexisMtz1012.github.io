@@ -5,3 +5,9 @@
 @import "/lib/icono.css";
 @import "/lib/mi-nav.css";
 @import "/lib/campos.css";
+
+
+table{
+    border: 2px;
+    border-radius: 2px;
+}
