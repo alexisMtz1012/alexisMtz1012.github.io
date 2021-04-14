@@ -1,11 +1,6 @@
 body {
   font-family: sans-serif;
   text-align: center;
-  margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	background: transparent;
-	background: -webkit-linear-gradient(top, transparent, #0F76A0);
 }
 
 .contenido {
@@ -25,7 +20,6 @@ mi-footer {
   font-size: small;
 }
 
-
 .botones_vinculo{
   font: 20px fuente1;
 	color: #000000;
@@ -36,7 +30,7 @@ mi-footer {
 	margin-bottom: 10px;
 	background: transparent;
 }
-.botones_vinculo a{
+.botones_vinculo a:hover{
   background: transparent;
 	background-color: #0F76A0;
 	color: #FFFFFF;
