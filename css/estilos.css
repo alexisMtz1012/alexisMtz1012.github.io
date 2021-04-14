@@ -22,6 +22,7 @@ h3{
     text-align: center;
 }
 p img{
+    position: fixed;
     text-align: center;
-    width: 10px;
+    width: 350px;
 }
