@@ -71,7 +71,7 @@ const ARCHIVOS = [
 
 self.addEventListener('install', e => {
   e.waitUntil(
-    caches.open(CACHE_NAME)
+    caches.open(CACHE)
       .then(cache => {
         return cache.addAll(urlsToCache)
           .then(() => self.skipWaiting())
